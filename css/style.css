@@ -2,5 +2,31 @@
     margin: 0;
     padding: 0;
     font-family: 'Onest Variable', sans-serif;
+    color: white;
 }
 
+body {
+    background-color: rgb(0, 0, 0, 0.9); 
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.a_links {
+    opacity: 1;
+}
+
+.a_links:hover {
+    opacity: 0.5;
+}
+
+
+.nav_ico {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
