@@ -30,3 +30,20 @@ header {
     height: 20px;
     margin-right: 20px;
 }
+
+.abt_ico {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.abt_ico:hover {
+    opacity: 0.5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
