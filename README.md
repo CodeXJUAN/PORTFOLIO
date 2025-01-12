@@ -1,4 +1,4 @@
-#Portfolio - Juan Manuel López#
+# Portfolio - Juan Manuel López
 
 Hi!
 
