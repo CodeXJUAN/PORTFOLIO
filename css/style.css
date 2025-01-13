@@ -5,15 +5,23 @@
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+  
+
 body {
     background-color: rgb(0, 0, 0, 0.9); 
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
 
 .a_links {
@@ -24,6 +32,61 @@ header {
     opacity: 0.5;
 }
 
+.container {
+    margin-top: 10vh;
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.card {
+    position: fixed;
+    width: 30vw;
+    height: 100vh;
+}
+
+.card1 {
+    width: 20vw; 
+    height: 30vh;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: 1vh;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: -4px 5px 5px 5px rgb(255, 255, 255, 0.2);
+}
+
+.card_img {
+    width: 100%;
+    height: 45%;
+}
+
+.card_info {
+    width: 100%;
+    height: 40%;
+}
+
+.speciality {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.card_social {
+    width: 100%;
+    height: 15%;
+}
 
 .nav_ico {
     width: 20px;
@@ -39,6 +102,43 @@ header {
 
 .abt_ico:hover {
     opacity: 0.5;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20vw; 
+    height: 15vh;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: 3vh;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: -4px 5px 5px 5px rgb(255, 255, 255, 0.2);
+}
+
+.about {
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+
+.content {
+    width: 60vw;
+    position: absolute;
+    top: 11vh;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1; 
+    padding: 20px;
+}
+
+#experience, #projects, #skills {
+    flex: 1; 
+    padding: 20px;
 }
 
 footer {
