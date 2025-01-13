@@ -143,16 +143,20 @@ body {
     height: 50%;
 }
 
-.card_contact a {
-    text-decoration: none;
-    text-transform: uppercase;
+.img_contact {
+    width: 35px;    
+    height: 35px;
+    margin: 10px;
 }
 
-.img_contact {
-    width: 35px;
-    height: 35px;
-    margin-right: 10px;
+.contact_links {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
+
+
+
 
 .divider {
     display: flex;
