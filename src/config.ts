@@ -45,6 +45,11 @@ export const socialLinks: SocialLink[] = [
     url: "mailto:juanmanuellopezarrieta@gmail.com",
     icon: "mdi:email",
   },
+  {
+    title: "Linkedin",
+    url: "https://www.linkedin.com/in/juan-manuel-l%C3%B3pez-arrieta-0594912ab/",
+    icon: "mdi:linkedin",
+  },
 ];
 
 // Home (/)
@@ -57,7 +62,7 @@ export const homePageContent: HomePageContent = {
   },
   role: "Student & 'Full-Stack Developer'",
   description:
-    "I'm Juan, a full time student from Spain who also loves building cool things using code.",
+    "I'm Juan, a full time student from Spain, I started coding at 15 and since then I decided to pursue my dream of living as a coder in another country.",
   socialLinks: socialLinks,
   links: [
     {
@@ -115,32 +120,29 @@ export const aboutPageContent: AboutPageContent = {
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
+    title: "Projects | Juan Manuel López Arrieta",
     description: "Check out what I've been working on.",
     image: identity.logo,
   },
   subtitle: "Check out what I've been working on.",
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "JWEAR",
+      description: "Fictional E-Commerce Store",
+      bar: "-----------------------------------",
+      info: "Project in process, made with HTML, CSS, PHP and JavaScript.",
+      image: "/preview.png",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/CodeXJUAN/JWEAR_FULLSTACK_PROJECT",
     },
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
-    },
-    {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
+      title: "SalsyFeed APP",
+      description: "The University Gossip World, all in an App",
+      bar: "-----------------------------------",
+      info: "Project in process too, made with React Native and Expo.",
+      image: "/salsyfeedlogo.jpg",
+      year: "2025",
+      url: "https://github.com/CodeXJUAN/SALSYFEED-APP",
     },
   ],
 };

@@ -5,9 +5,11 @@ import {marked} from "marked"
 
 type Props = Project;
 
-const { title, description, image, year, url } = Astro.props;
+const { title, description, bar, info, image, year, url } = Astro.props;
 
 const htmlDescription = marked.parse(description)
+const htmlbar = marked.parse(bar)
+const htmlinfo = marked.parse(info)
 ---
 
 <a
@@ -31,6 +33,8 @@ const htmlDescription = marked.parse(description)
     </div>
     <div class="opacity-60">
       <Fragment set:html={htmlDescription} />
+      <Fragment set:html={htmlbar} />
+      <Fragment set:html={htmlinfo} />
     </div>
   </div>
 </a>
