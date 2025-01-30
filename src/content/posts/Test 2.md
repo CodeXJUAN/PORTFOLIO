@@ -1,9 +1,10 @@
 ---
-title: "My First Blog Post with a very long name"
-pubDate: 2022-07-01 #Y-M-D
-description: "Test"
-author: "Tim"
-image: { url: "/demo-1.jpg", alt: "Test" }
+title: "CFGS - Desenvolupament d'Aplicacions Multiplataforma"
+pubDate: 2024-09-12 #Y-M-D
+current: "Current"
+description: "Universitat de Vic, Vic"
+author: "Juan"
+image: { url: "", alt: "UVIC" }
 ---
 
 This is test content

@@ -28,7 +28,7 @@ export const navBarLinks: NavBarLink[] = [
     url: "/projects",
   },
   {
-    title: "Blog",
+    title: "Education",
     url: "/blog",
   },
 ];
@@ -42,7 +42,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     title: "Mail",
-    url: "juanmanuellopezarrieta@gmail.com",
+    url: "mailto:juanmanuellopezarrieta@gmail.com",
     icon: "mdi:email",
   },
 ];
@@ -93,25 +93,16 @@ export const aboutPageContent: AboutPageContent = {
     },
   },
   work: {
-    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
+    description: `I don't have much work experience due to my age, but in the internship I had a while ago I had a very good experience.`, // Markdown is supported
     items: [
       {
-        title: "Software Developer",
+        title: "Workplace Training",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          name: "AMPANS",
+          image: "/ampans-logo.png",
+          url: "https://ampans.cat/es/",
         },
-        date: "2021 - Present",
-      },
-      {
-        title: "Software Developer",
-        company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
-        },
-        date: "2019 - 2021",
+        date: "2023 - 2024",
       },
     ],
   },
@@ -157,9 +148,9 @@ export const projectsPageContent: ProjectPageContent = {
 // Blog (/blog)
 export const blogPageContent: BlogPageContent = {
   seo: {
-    title: "Blog | Tim Witzdam",
-    description: "Thoughts, stories and ideas.",
+    title: "Education | Juan Manuel López Arrieta ",
+    description: "In this page i will put all my education",
     image: identity.logo,
   },
-  subtitle: "Thoughts, stories and ideas.",
+  subtitle: "",
 };
