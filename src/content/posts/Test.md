@@ -31,5 +31,5 @@ The subjects that I did that I liked the most and that definitely helped me the 
 - Web Development
   - HTML
   - CSS
-  - Introduction to JavaScrip
+  - Introduction to JavaScript
   
