@@ -62,7 +62,7 @@ export const homePageContent: HomePageContent = {
   },
   role: "Student & 'Full-Stack Developer'",
   description:
-    "I'm Juan, a full time student from Spain, I started coding at 15 and since then I decided to pursue my dream of living as a coder in another country.",
+    "I'm Juan, a full time student from Spain, I started coding at 15 and since then I decided to pursue my dream of living as a coder.",
   socialLinks: socialLinks,
   links: [
     {
