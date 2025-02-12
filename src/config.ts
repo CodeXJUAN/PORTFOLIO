@@ -126,24 +126,6 @@ export const projectsPageContent: ProjectPageContent = {
   },
   subtitle: "Check out what I've been working on.",
   projects: [
-    {
-      title: "JWEAR",
-      description: "Fictional E-Commerce Store",
-      bar: "-----------------------------------",
-      info: "Project in process, made with HTML, CSS, PHP and JavaScript.",
-      image: "/preview.png",
-      year: "2024",
-      url: "https://github.com/CodeXJUAN/JWEAR_FULLSTACK_PROJECT",
-    },
-    {
-      title: "SalsyFeed APP",
-      description: "The University Gossip World, all in an App",
-      bar: "-----------------------------------",
-      info: "Project in process too, made with React Native and Expo.",
-      image: "/salsyfeedlogo.jpg",
-      year: "2025",
-      url: "https://github.com/CodeXJUAN/SALSYFEED-APP",
-    },
   ],
 };
 
