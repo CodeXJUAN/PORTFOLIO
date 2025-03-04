@@ -125,7 +125,14 @@ export const projectsPageContent: ProjectPageContent = {
     image: identity.logo,
   },
   subtitle: "Check out what I've been working on.",
-  projects: [
+  projects: [{
+    title: "To-Do List",
+    description: "A simple and minimalistic To-Do List.",
+    info: "A To-Do List made with HTML, CSS and JavaScript, simple and with a beauty design.",
+    image: "/public/salsyfeedlogo.jpg",
+    year: "2025",
+    url: "https://github.com/CodeXJUAN/SALSYFEED-APP",
+  }
   ],
 };
 

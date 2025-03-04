@@ -72,7 +72,6 @@ export type AboutPageContent = {
 export type Project = {
   title: string;
   description: string;
-  bar: string;
   info: string;
   image: string;
   year: string;
