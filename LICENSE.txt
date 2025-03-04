@@ -1,10 +1,6 @@
 MIT License
 
-<<<<<<< HEAD:LICENSE.txt
 Copyright (c) 2025 Juan Manuel López Arrieta 
-=======
-Copyright (c) 2025 Juan Manuel López Arrieta
->>>>>>> 1af49b231c09ae3bd69756317245f9d384ad5b72:LICENSE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
